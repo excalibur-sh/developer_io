@@ -1,0 +1,651 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bree+Serif&family=Fjalla+One&family=Kenia&family=Lato:wght@900&family=Roboto:wght@400;500&family=Silkscreen&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+#home {
+    transition: all 0.3s ease;
+    background-color: white;
+}
+
+.hr {
+    background-color: #3e3e3e;
+    border: none;
+    height: .2rem;
+    width: 17%;
+    margin: 0rem auto;
+}
+
+/* =========================NAVBAR CSS=========================== */
+
+.navbar {
+    padding-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navbar .logo a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.navbar .logo a span {
+    font-family: 'Roboto', sans-serif;
+    color: crimson;
+    transition: all 0.3s ease;
+}
+
+.navbar .logo a span:hover {
+    color: red;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline;
+    padding: 1rem;
+}
+
+.navbar ul li a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: rgb(0, 6, 65);
+    text-decoration: underline;
+    text-underline-offset: .2rem;
+}
+
+.navbar a button {
+    cursor: pointer;
+    padding: .5rem .9rem;
+    background-color: black;
+    color: white;
+    border-radius: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    transition: all 0.3s ease;
+}
+
+.navbar a button:hover {
+    background-color: rgb(65, 0, 0);
+}
+
+/* =====================HOME CSS========================== */
+
+.home-content {
+    height: 80vh;
+    padding: 0rem 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: default;
+}
+
+.home-img {
+    width: 35rem;
+}
+
+.home-content .text {
+    font-family: 'Roboto', sans-serif;
+}
+
+.home-content .text span {
+    color: black;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.home-content .text .typing {
+    color: crimson;
+}
+
+.home-content .text h1 {
+    color: navy;
+    font-size: 3.5rem;
+}
+
+.home-content .text p {
+    width: 38rem;
+    margin-top: .5rem;
+    margin-bottom: 2rem;
+    color: black;
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.home-hr {
+    background-color: #3e3e3e;
+    height: .2rem;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.footer {
+    padding: 1.2rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p {
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    color: crimson;
+}
+
+.footer p a {
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    color: crimson;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.footer a:hover {
+    color: blue;
+}
+
+/* ====================ABOUT CSS==================== */
+
+.about {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 2rem;
+    cursor: default;
+}
+
+.about h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #495E57;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: .5rem;
+}
+
+/* ==================FLAT CSS======================= */
+
+.flat-content {
+    height: 88vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 88vh;
+    cursor: default;
+    padding: 0rem 10rem;
+}
+
+.flat-content .flat-img {
+    width: 35rem;
+    border-radius: 2rem 0px 2rem 0px;
+}
+
+.flat-content .flat-text {
+    margin-left: 2rem;
+}
+
+.flat-content .flat-text .span-1 {
+    font-size: 2.5rem;
+    color: #4D4C7D;
+    font-weight: 600;
+}
+
+.flat-content .flat-text .span-1 .time-1 {
+    cursor: pointer;
+    color: #749BC2;
+    text-decoration: underline;
+    text-underline-offset: .3rem;
+}
+
+.flat-content .flat-text p {
+    margin-top: 2rem;
+    text-align: justify;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #3C486B;
+}
+
+
+/* ==================Office CSS======================= */
+
+.office-content {
+    height: 88vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0rem 10rem;
+}
+
+.office-content .office-text {
+    margin-right: 3rem;
+}
+
+.office-content .office-text .span-2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #4F4A45;
+}
+
+.office-content .office-text .time-2 {
+    cursor: pointer;
+    font-weight: 600;
+    color: #F4CE14;
+    text-decoration: underline;
+    text-underline-offset: .3rem;
+}
+
+.office-content .office-text p {
+    margin-top: 2rem;
+    text-align: justify;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #025464;
+}
+
+.office-content .office-img {
+    width: 35rem;
+    object-fit: cover;
+    border-radius: 0rem 2rem 0rem 2rem;
+}
+
+/* ========================BIG OFFICE CSS===================== */
+.big-office-content {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0rem 10rem;
+}
+
+.big-office-content .big-office-text {
+    margin-left: 3rem;
+}
+
+.big-office-content .big-office-text .span-3 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #5D3891;
+}
+
+.big-office-content .big-office-text .time-3 {
+    cursor: pointer;
+    font-weight: 600;
+    color: #FF8400;
+    text-decoration: underline;
+    text-underline-offset: .3rem;
+}
+
+.big-office-content .big-office-text p {
+    margin-top: 2rem;
+    text-align: justify;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #674188;
+}
+
+.big-office-content .big-office-img {
+    width: 35rem;
+    object-fit: cover;
+    border-radius: 2rem 0rem 2rem 0rem;
+}
+
+.span-text {
+    margin-bottom: 3rem;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+}
+
+/* =================Services CSS========================= */
+.service {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 2rem;
+    cursor: default;
+}
+
+.service img {
+    transition: all 0.3s ease;
+}
+
+.service img:hover {
+    transform: scale(1.1);
+}
+
+.service .service-text h1 {
+    font-size: 2.3rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #7071E8;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: .5rem;
+}
+
+.service-content {
+    height: 88vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0rem 12rem;
+}
+
+.service-image {
+    width: 25rem;
+}
+
+.service-content-text h1 {
+    font-size: 2.3rem;
+}
+
+.service-content-text p {
+    width: 38rem;
+    font-size: 1.1rem;
+}
+
+/* ===============customize css============== */
+
+.customize {
+    height: 88vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 12rem;
+}
+
+.customize-img {
+    width: 30rem;
+}
+
+.customize-text h1 {
+    font-size: 2.3rem;
+}
+
+.customize-text p {
+    width: 38rem;
+    font-size: 1.1rem;
+}
+
+
+/* =====================design css================ */
+
+
+.design {
+    height: 88vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 12rem;
+}
+
+.design-img {
+    width: 30rem;
+}
+
+.design-text h1 {
+    font-size: 2.3rem;
+}
+
+.design-text p {
+    width: 38rem;
+    font-size: 1.1rem;
+}
+
+/* =====================publish css================ */
+
+
+.publish {
+    height: 88vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 12rem;
+}
+
+.publish-img {
+    width: 30rem;
+}
+
+.publish-text h1 {
+    font-size: 2.3rem;
+}
+
+.publish-text p {
+    width: 38rem;
+    font-size: 1.1rem;
+}
+
+/* ===================manage css================= */
+
+
+.manage {
+    height: 88vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 12rem;
+}
+
+.manage-img {
+    width: 30rem;
+}
+
+.manage-text h1 {
+    font-size: 2.3rem;
+}
+
+.manage-text p {
+    width: 38rem;
+    font-size: 1.1rem;
+}
+
+
+/* ========================FOOT CSS======================= */
+.service .span-text {
+    margin-bottom: 3rem;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/* =======================MEDIA QUERY======================= */
+
+@media (max-width:650px) {
+    .navbar {
+        display: none;
+    }
+
+    .home-content {
+        padding: 0rem 0rem;
+        height: 88vh;
+    }
+
+    .home-content .home-img {
+        display: none;
+    }
+
+    .home-content .text {
+        text-align: center;
+    }
+
+    .home-content .text p {
+        width: 22rem;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+
+    .flat-content {
+        margin-top: 5rem;
+        padding: 0rem 0rem;
+        flex-wrap: wrap;
+    }
+
+    .flat-content .flat-img {
+        width: 20rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .flat-content .flat-text p {
+        width: 20rem;
+    }
+
+
+    .office-content {
+        height: 95vh;
+        margin-top: 1rem;
+        padding: 0rem 0rem;
+        flex-wrap: wrap;
+    }
+
+    .office-content .office-text {
+        padding: 0rem 2rem;
+        margin-right: 0rem;
+    }
+
+    .office-content .office-text p {
+        margin-bottom: 1rem;
+        width: 20rem;
+    }
+
+    .office-content .office-img {
+        width: 20rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .big-office-content {
+        height: 110vh;
+        margin-top: 1rem;
+        padding: 0rem 0rem;
+        flex-wrap: wrap;
+    }
+
+    .big-office-content .big-office-img {
+        width: 20rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .big-office-content .big-office-text {
+        padding: 2rem;
+        margin: 0;
+    }
+
+    .big-office-content .big-office-text p {
+        width: 20rem;
+    }
+
+    .span-text {
+        text-align: center;
+        padding: 0rem 1rem;
+    }
+
+    .service-content {
+        margin-top: 1rem;
+        padding: 0rem 0rem;
+        flex-wrap: wrap;
+    }
+
+    .service-content-text p {
+        width: 20rem;
+        text-align: justify;
+    }
+
+    .service-image {
+        width: 20rem;
+    }
+
+    .customize {
+        margin-top: 1rem;
+        padding: 0rem 0rem;
+        flex-wrap: wrap;
+    }
+
+    .customize-text p {
+        text-align: justify;
+        width: 20rem;
+    }
+
+    .customize-img {
+        width: 22rem;
+    }
+
+    .design {
+        margin-top: 1rem;
+        padding: 0rem 0rem;
+        flex-wrap: wrap;
+    }
+
+    .design-img {
+        width: 22rem;
+    }
+
+    .design-text p {
+        width: 20rem;
+        text-align: justify;
+    }
+
+    .publish {
+        margin-top: 1rem;
+        padding: 0rem 0rem;
+        flex-wrap: wrap;
+    }
+
+    .publish-text p {
+        width: 20rem;
+        text-align: justify;
+    }
+
+    .publish-img {
+        width: 20rem;
+    }
+
+    .manage {
+        margin-top: 1rem;
+        padding: 0rem 0rem;
+        flex-wrap: wrap;
+    }
+
+    .manage-img {
+        width: 20rem;
+
+    }
+
+    .manage-text p {
+        margin-bottom: 5rem;
+        width: 20rem;
+        text-align: justify;
+    }
+
+}
